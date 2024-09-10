@@ -1,0 +1,6 @@
+fd = open("C:/Users/harig/OneDrive/Desktop/Python_Concepts/check.txt",'a+')
+fd.writelines("2nd argument")
+fd.write("\n")
+b=fd.read()
+print(b)
+fd.close()
